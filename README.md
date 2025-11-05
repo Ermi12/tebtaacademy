@@ -1,15 +1,11 @@
-# Tebta Academy - React + Node Starter
+# Client (Vite + React)
 
-Run server and client separately:
+Run:
 
 ```
-cd server
-npm install
-npm start
-
 cd client
 npm install
 npm run dev
 ```
 
-Server runs on port 5000. Client (Vite) runs on 5173.
+Frontend runs on port 5173 and proxies to server at /api endpoints if you run server separately.
